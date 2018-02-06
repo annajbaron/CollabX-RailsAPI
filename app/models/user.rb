@@ -6,6 +6,9 @@ class User < ApplicationRecord
   validates :email, presence: true, uniqueness: true, format: VALID_EMAIL_REGEX
   validates :first_name, :last_name, presence: true
 
+  has_many :follows, dependent: :destroy
+  has_many :followed_brands, through: :likes, source: :brand
+
   def full_name
     "#{first_name} #{last_name}"
   end
