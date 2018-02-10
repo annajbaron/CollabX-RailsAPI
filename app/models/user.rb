@@ -9,6 +9,9 @@ class User < ApplicationRecord
   has_many :follows, dependent: :destroy
   has_many :followed_brands, through: :likes, source: :brand
 
+  has_many :likes, dependent: :destroy
+  has_many :liked_collections, through: :likes, source: :collection
+
   def full_name
     "#{first_name} #{last_name}"
   end
