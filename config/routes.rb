@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  resources :pitches
+  resources :pitches do
+    resources :votes, only: [:create, :update, :destroy], shallow: true
+  end
   resources :collections, only: [:index, :show, :create]
   resources :collections, only: [], shallow: true do
     resources :likes, only: [:create, :destroy], shallow: true
