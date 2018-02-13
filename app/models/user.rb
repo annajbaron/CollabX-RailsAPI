@@ -12,6 +12,9 @@ class User < ApplicationRecord
   has_many :likes, dependent: :destroy
   has_many :liked_collections, through: :likes, source: :collection
 
+  has_many :votes, dependent: :destroy
+  has_many :voted_pitches, through: :votes, source: :pitch
+
   def full_name
     "#{first_name} #{last_name}"
   end
