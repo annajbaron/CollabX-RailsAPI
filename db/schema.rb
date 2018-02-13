@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180210055334) do
+ActiveRecord::Schema.define(version: 20180213010323) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,6 +37,8 @@ ActiveRecord::Schema.define(version: 20180210055334) do
     t.datetime "date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "pictures"
+    t.index ["pictures"], name: "index_collections_on_pictures"
   end
 
   create_table "follows", force: :cascade do |t|
