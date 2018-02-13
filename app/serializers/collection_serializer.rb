@@ -1,3 +1,3 @@
 class CollectionSerializer < ActiveModel::Serializer
-  attributes :id, :name, :date
+  attributes :id, :name, :date, :pictures
 end

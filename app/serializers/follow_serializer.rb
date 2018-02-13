@@ -1,7 +1,7 @@
 class FollowSerializer < ActiveModel::Serializer
-  attributes :id, :brand_id, :user_id, :brand_name
+  attributes :id, :brand_id, :user_id, :brand
 
-  def brand_name
-    object.brand.name
+  def brand
+    object.brand
   end
 end

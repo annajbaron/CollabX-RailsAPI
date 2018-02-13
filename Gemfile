@@ -22,7 +22,6 @@ gem 'faker'
 gem 'faraday'
 gem 'jwt'
 
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
