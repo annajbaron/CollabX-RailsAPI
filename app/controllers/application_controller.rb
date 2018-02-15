@@ -1,5 +1,4 @@
 class ApplicationController < ActionController::API
-  # skip_before_action :verify_authenticity_token
   include ActionController::Helpers
 
   def user_signed_in?
@@ -25,10 +24,6 @@ class ApplicationController < ActionController::API
       end
    end
   helper_method :current_user
-
-  # def verify_admin!
-  #   head :unauthorized unless current_user&.is_admin
-  # end
 
   private
   def api_key

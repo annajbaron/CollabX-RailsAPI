@@ -39,12 +39,10 @@ class PitchesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
     def set_pitch
       @pitch = Pitch.find(params[:id])
     end
 
-    # Only allow a trusted parameter "white list" through.
     def pitch_params
       params.require(:pitch).permit(:brand_1, :brand_2)
     end

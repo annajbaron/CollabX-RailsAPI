@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     resources :votes, only: [:create, :update, :destroy], shallow: true
   end
   resources :collections, only: [:index, :show, :create]
-  resources :collections, only: [], shallow: true do
+  resources :collections do
     resources :likes, only: [:create, :destroy], shallow: true
   end
 
@@ -12,7 +12,8 @@ Rails.application.routes.draw do
   end
   resources :collaborators, only: [:create, :destroy], shallow: true
   resources :follows, only: [:index]
-  resources :likes, only: [:index]
+  resources :votes, only: [:index]
+  resources :likes, only: [:index, :show]
   resources :users, only: [:new, :create]
   resources :tokens, only: [:create]
 end

@@ -24,7 +24,7 @@ class LikesController < ApplicationController
     c = Collection.find params[:collection_id]
     like = Like.new(collection: c, user: current_user)
     if like.save
-      render json: like, status: :created, location: like
+      render json: like, status: :created
     else
       render json: like.errors, status: :unprocessable_entity
     end
