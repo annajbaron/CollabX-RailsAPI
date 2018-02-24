@@ -16,7 +16,7 @@ class VotesController < ApplicationController
   # POST /votes
   def create
     pit = Pitch.find params[:pitch_id]
-    vote = Vote.new(pitch: pit, user: current_user)
+    vote = Vote.new(pitch: pit, user: current_user, is_up: vote_params[:is_up])
     if vote.save
       render json: vote, status: :created, location: vote
     else
