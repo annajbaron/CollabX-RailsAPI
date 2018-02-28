@@ -145,7 +145,7 @@ brand =
 ]
 
 brand.each do |newBrand|
-  Brand.create(id: newBrand.id, name: newBrand.name, founded: newBrand.founded, hq: newBrand.hq)
+  Brand.create(name: newBrand.name, founded: newBrand.founded, hq: newBrand.hq)
 end
 
 users = User.all
