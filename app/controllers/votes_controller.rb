@@ -3,7 +3,7 @@ class VotesController < ApplicationController
 
   # GET /votes
   def index
-    @votes = Vote.all
+    @votes = Vote.where(user_id: current_user)
 
     render json: @votes
   end
@@ -16,9 +16,9 @@ class VotesController < ApplicationController
   # POST /votes
   def create
     pit = Pitch.find params[:pitch_id]
-    vote = Vote.new(pitch: pit, user: current_user)
+    vote = Vote.new(pitch: pit, user: current_user, is_up: vote_params[:is_up])
     if vote.save
-      render json: vote, status: :created, location: vote
+      render json: vote, status: :created
     else
       render json: vote.errors, status: :unprocessable_entity
     end
