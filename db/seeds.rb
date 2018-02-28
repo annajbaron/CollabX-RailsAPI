@@ -29,140 +29,115 @@ end
 brand =
 [
     {
-        "id": 1,
         "name": "Nike",
         "founded": 1964,
         "hq": "Beaverton, Oregon, United States"
     },
     {
-        "id": 2,
         "name": "Adidas",
         "founded": 1949,
         "hq": "Herzogenaurach, Germany"
     },
     {
-        "id": 3,
         "name": "Champion",
         "founded": 1919,
         "hq": "Winston-Salem, North Carolina, United States"
     },
     {
-        "id": 4,
         "name": "Supreme",
         "founded": 1994,
         "hq": "New York City, New York, United States"
     },
     {
-        "id": 6,
         "name": "Palace Skateboards",
         "founded": 2009,
         "hq": "London, England"
     },
     {
-        "id": 7,
         "name": "Raf Simons"
     },
     {
-        "id": 8,
         "name": "Kanye West"
     },
     {
-        "id": 9,
         "name": "Riccardo Tisci"
     },
     {
-        "id": 11,
         "name": "Dover Street Market",
         "founded": 2004,
         "hq": "London, England"
     },
     {
-        "id": 12,
         "name": "Pigalle",
         "founded": 2008,
         "hq": "Paris, France"
     },
     {
-        "id": 13,
         "name": "Virgil Abloh",
         "founded": 2012,
         "hq": "Milan, Italy"
     },
     {
-        "id": 15,
         "name": "Gosha Rubchinskiy",
         "founded": 2008
     },
     {
-        "id": 16,
         "name": "Undefeated",
         "founded": 2002,
         "hq": "Los Angeles, California, United States"
     },
     {
-        "id": 17,
         "name": "fragment design",
         "founded": 2003,
         "hq": "Tokyo, Japan"
     },
     {
-        "id": 18,
         "name": "Yohji Yamamoto",
         "founded": 1972,
         "hq": "Tokyo, Japan"
     },
     {
-        "id": 21,
         "name": "Sole Collector",
         "founded": 2003,
         "hq": "New York City, New York, United States"
     },
     {
-        "id": 23,
         "name": "White Mountaineering",
         "founded": 2006,
         "hq": "Tokyo, Japan"
     },
     {
-        "id": 24,
         "name": "Alexander Wang",
         "founded": 2005,
         "hq": "New York City, New York, United States"
     },
     {
-        "id": 26,
         "name": "KAWS"
     },
     {
-        "id": 28,
         "name": "Stussy",
         "founded": 1980,
         "hq": "Irvine, California, United States"
     },
     {
-        "id": 29,
         "name": "Pharrell"
     },
     {
-        "id": 30,
         "name": "Undercover",
         "founded": 1993,
         "hq": "Tokyo, Japan"
     },
     {
-        "id": 31,
         "name": "Reigning Champ",
         "founded": 2007,
         "hq": "Vancouver, British Columbia, Canada"
     },
     {
-        "id": 32,
         "name": "The North Face",
         "founded": 1968,
         "hq": "Alameda, California, United States"
     },
     {
-        "id": 33,
         "name": "Louis Vuitton",
         "founded": 1854,
         "hq": "Paris, France"
