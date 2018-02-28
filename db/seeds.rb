@@ -61,20 +61,20 @@ brand =
     {
         "id": 7,
         "name": "Raf Simons",
-        "founded": null,
-        "hq": null
+        "founded": ,
+        "hq": 
     },
     {
         "id": 8,
         "name": "Kanye West",
-        "founded": null,
-        "hq": null
+        "founded": ,
+        "hq": 
     },
     {
         "id": 9,
         "name": "Riccardo Tisci",
-        "founded": null,
-        "hq": null
+        "founded": ,
+        "hq": 
     },
     {
         "id": 11,
@@ -98,7 +98,7 @@ brand =
         "id": 15,
         "name": "Gosha Rubchinskiy",
         "founded": 2008,
-        "hq": null
+        "hq": 
     },
     {
         "id": 16,
@@ -139,8 +139,8 @@ brand =
     {
         "id": 26,
         "name": "KAWS",
-        "founded": null,
-        "hq": null
+        "founded": ,
+        "hq": 
     },
     {
         "id": 28,
@@ -151,8 +151,8 @@ brand =
     {
         "id": 29,
         "name": "Pharrell",
-        "founded": null,
-        "hq": null
+        "founded": ,
+        "hq": 
     },
     {
         "id": 30,
