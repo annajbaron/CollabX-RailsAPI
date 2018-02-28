@@ -60,21 +60,15 @@ brand =
     },
     {
         "id": 7,
-        "name": "Raf Simons",
-        "founded": ,
-        "hq": 
+        "name": "Raf Simons"
     },
     {
         "id": 8,
-        "name": "Kanye West",
-        "founded": ,
-        "hq": 
+        "name": "Kanye West"
     },
     {
         "id": 9,
-        "name": "Riccardo Tisci",
-        "founded": ,
-        "hq": 
+        "name": "Riccardo Tisci"
     },
     {
         "id": 11,
@@ -97,8 +91,7 @@ brand =
     {
         "id": 15,
         "name": "Gosha Rubchinskiy",
-        "founded": 2008,
-        "hq": 
+        "founded": 2008
     },
     {
         "id": 16,
@@ -138,9 +131,7 @@ brand =
     },
     {
         "id": 26,
-        "name": "KAWS",
-        "founded": ,
-        "hq": 
+        "name": "KAWS"
     },
     {
         "id": 28,
@@ -150,9 +141,7 @@ brand =
     },
     {
         "id": 29,
-        "name": "Pharrell",
-        "founded": ,
-        "hq": 
+        "name": "Pharrell"
     },
     {
         "id": 30,
@@ -170,16 +159,7 @@ brand =
         "id": 32,
         "name": "The North Face",
         "founded": 1968,
-        "hq": "Alameda, California, United States",
-        "collaborators": [
-            {
-                "id": 12,
-                "brand_id": 32,
-                "collection_id": 8,
-                "created_at": "2018-02-13T00:20:38.019Z",
-                "updated_at": "2018-02-13T00:20:38.019Z"
-            }
-        ]
+        "hq": "Alameda, California, United States"
     },
     {
         "id": 33,
