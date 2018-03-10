@@ -1,24 +1,14 @@
-# README
+# CollabX API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This API is responsible for handling requests for CollabX-ReactFrontend. For more information and to view the source code click [here](https://github.com/annajbaron/CollabX-ReactFrontend)!
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run the following command in your terminal:
+```
+> git clone https://github.com/annajbaron/CollabX-RailsAPI.git
+> cd collab-x-api
+> bundle
+> rails db:create
+> rails db:migrate
+> rails db:seed
+> rails start
+```
